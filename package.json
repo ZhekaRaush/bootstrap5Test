@@ -1,0 +1,32 @@
+{
+  "name": "bootstrap5test",
+  "version": "1.0.0",
+  "description": "Bootstrap 5 тестовый репозиторий",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhekaRaush/bootstrap5Test.git"
+  },
+  "keywords": [
+    "Bootstrap 5 тестовый репозиторий",
+    "CSS",
+    "SCSS",
+    "SASS"
+  ],
+  "author": "ZhekaRaush",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZhekaRaush/bootstrap5Test/issues"
+  },
+  "homepage": "https://github.com/ZhekaRaush/bootstrap5Test#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.11",
+    "del": "^6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.57.1"
+  }
+}
