@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+
+    background-color: red;
+
+    @media (min-width: 500px) {
+        background-color: green;
+    }
+
+    @media (min-width: 1000px) {
+        background-color: blue;
+    }
+}
+
+@import '../../node_modules/bootstrap/scss/bootstrap-grid.scss';
+
+@import './breakpoints';
+
+.block {
+    background-color: #ddd;
+    border: solid 1px #aaa;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+}
+
+.header {
+    min-height: 90px;
+    margin-bottom: 130px;
+}
+
+.promo {
+    min-height: 460px;
+    margin-bottom: 110px;
+}
+
+.clients {
+    min-height: 80px;
+    margin-bottom: 170px;
+}
+
+.pricing {
+    min-height: 480px;
+    margin-bottom: 235px;
+}
+
+.team {
+    min-height: 360px;
+    margin-bottom: 180px;
+}
+
+.footer {
+    min-height: 380px;
+}

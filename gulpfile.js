@@ -20,7 +20,7 @@ const clear = done => {
 
 // HTML
 const html = () => {
-    return gulp.src('./src/index.html')
+    return gulp.src('./src/*.html')
         .pipe(gulp.dest('./public'))
         .pipe(browserSync.stream());
 };

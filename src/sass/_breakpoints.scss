@@ -1,0 +1,90 @@
+.breakpoints {
+    border-left: solid 5px #333;
+    border-right: solid 5px #333;
+    min-height: 100vh;
+    min-width: 280px;
+
+    @include media-breakpoint-up('xs') {
+        background-color: #fffadd;
+    }
+    
+    @include media-breakpoint-up('sm') {
+        background-color: #fed6bc;
+    }
+    
+    @include media-breakpoint-up('md') {
+        background-color: #def7fe;
+    }
+    
+    @include media-breakpoint-up('lg') {
+        background-color: #e7ecff;
+    }
+    
+    @include media-breakpoint-up('xl') {
+        background-color: #c6d8ff;
+    }
+    
+    @include media-breakpoint-up('xxl') {
+        background-color: #c3f8d8;
+    }
+
+    &::before {
+        display: block;
+        text-align: center;
+        font-size: 200px;
+
+        @include media-breakpoint-up('xs') {
+            content: "xs";
+        }
+        
+        @include media-breakpoint-up('sm') {
+            content: "sm";
+        }
+        
+        @include media-breakpoint-up('md') {
+            content: "md";
+        }
+        
+        @include media-breakpoint-up('lg') {
+            content: "lg";
+        }
+        
+        @include media-breakpoint-up('xl') {
+            content: "xl";
+        }
+        
+        @include media-breakpoint-up('xxl') {
+            content: "xxl";
+        }
+    }
+    
+    &::after {
+        display: block;
+        text-align: center;
+        font-size: 100px;
+
+        @include media-breakpoint-up('xs') {
+            content: "\003C 576px";
+        }
+        
+        @include media-breakpoint-up('sm') {
+            content: "\2265 576px";
+        }
+        
+        @include media-breakpoint-up('md') {
+            content: "\2265 768px";
+        }
+        
+        @include media-breakpoint-up('lg') {
+            content: "\2265 992px";
+        }
+        
+        @include media-breakpoint-up('xl') {
+            content: "\2265 1200px";
+        }
+        
+        @include media-breakpoint-up('xxl') {
+            content: "\2265 1400px";
+        }
+    }
+}
